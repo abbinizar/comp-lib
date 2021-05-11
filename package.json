@@ -1,9 +1,12 @@
 {
-  "name": "comp-lib",
+  "name": "@Abbinizar/comp-lib",
   "files": [
     "./dist"
   ],
-  "repository": "https://github.com/Abbinizar/comp-lib.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "git@github.com:Abbinizar/comp-lib.git",
   "version": "0.1.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
